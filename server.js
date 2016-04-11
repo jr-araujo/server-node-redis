@@ -18,7 +18,7 @@ server
 
 server.get("/", function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end('<html><head><title> GAB - 2016</title></head><body><h1>Hello Global Azure Brasilia - 2016</h1></body></html>');
+    res.end('<html><head><title> GAB - 2016</title></head><body><h1>Hello Global Azure Brasilia - 2016...</h1></body></html>');
 })
 
 // Event Start Route Configuration
