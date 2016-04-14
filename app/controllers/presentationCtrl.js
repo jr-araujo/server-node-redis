@@ -12,7 +12,7 @@ var Presentation = require('../models/presentation');
 exports.createPresentation = function (req, res, next) {
     var presentationModel = new Presentation(req.body);
     
-    clientRedis.hexists("events:" + presentationModel.Eventname +"presentation", presentationModel.Id, function (err, reply) {
+    clientRedis.hexists("events:" + presentationModel.Eventname +":presentation", presentationModel.Id, function (err, reply) {
         if(err){
             res.status(500);
             res.json({
