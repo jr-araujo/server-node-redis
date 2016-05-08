@@ -25,10 +25,6 @@ server.get("/", function (req, res) {
 server.post("/event", controllers.eventCtrl.createEvent)
 server.get("/event", controllers.eventCtrl.listAllEvents)
 server.get("/list-events", controllers.eventCtrl.listAllEvents)
-// server.put("/articles/:id", controllers.article.updateArticle)
-// server.del("/articles/:id", controllers.article.deleteArticle)
-// server.get({path: "/articles/:id", version: "1.0.0"}, controllers.article.viewArticle)
-// server.get({path: "/articles/:id", version: "2.0.0"}, controllers.article.viewArticle_v2)
 // Event Start Route Configuration
 
 // Event Start Route Configuration
