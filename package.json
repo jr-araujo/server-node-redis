@@ -1,6 +1,9 @@
 {
   "name": "event4you",
   "version": "1.0.0",
+  "engines": {
+    "node": "0.10.32"
+  },
   "description": "Online Events Management Platform",
   "main": "server.js",
   "scripts": {
