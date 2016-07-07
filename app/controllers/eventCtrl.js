@@ -2,7 +2,7 @@
 
 var redis = require("redis"),
     // clientRedis = redis.createClient();
-    clientRedis = redis.createClient(6379,'[HOST DO REDIS NO AZURE]]', {auth_pass: '[SENHA DE ACESSO, CASO NECESSÁRIO]'});
+    clientRedis = redis.createClient(6379,'myredislabs.redis.cache.windows.net', {auth_pass: 'w+qK/z8l7HjgPsKziC1KLYHzoo8kMUWNjHdo9x45vNU='});
 
 var Q = require('q');
 require('q-foreach')(Q);

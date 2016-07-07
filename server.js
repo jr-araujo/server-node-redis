@@ -32,7 +32,7 @@ server.post("/presentation", controllers.presentationCtrl.createPresentation)
 server.get({path: "/presentation/:eventName"}, controllers.presentationCtrl.listAllPresentations)
 // Event Start Route Configuration
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8082;
 server.listen(port, function (err) {
     if (err){        
         console.error(err)
